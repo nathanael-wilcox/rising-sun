@@ -1,0 +1,35 @@
+.navbar {
+  padding: 20px 80px;
+  width: 100vw;
+  border-bottom: 2px solid var(--border);
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container,
+.logo-link {
+  display: grid;
+  place-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.nav-link:hover {
+  opacity: 0.6;
+}
+
+.center-links {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
